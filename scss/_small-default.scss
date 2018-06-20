@@ -64,7 +64,28 @@ nav {
 } // end of nav
 
 //Overall styling for the MAIN of the document
+main {
 
+    figure.banner {width: 100%}
+    figure.banner img {width: 100%}
+
+    h1 {
+        font-size: 2rem;
+        margin: 1rem 0 0 $gutter;
+        color: $primaryColor;
+    }
+
+    hr.fadeAway {
+        background: linear-gradient(to right, rgba(66,78,100,1) 0%,rgba(41,137,216,0.5) 50%,rgba(32,124,202,0.49) 51%,rgba(66,78,100,0) 100%);
+        height: 2px;
+        border: none;
+        margin: 0 $gutter;
+    }
+
+    figure.photo {width: 100% - $gutterdbl; margin: .5rem $gutter; }
+    figure.photo img {width: 100%}
+    figure.photo figcaption {text-align: center; color: $primaryColor;}
+}
 //Overall styling for the FOOTER of the document
 footer {
     width: 100%;

@@ -1,0 +1,19 @@
+//Overall styling for the NAVIGATION of the document
+nav {
+    ul {
+        margin-left: $gutter;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+    ul li {width: auto;}
+    ul li a {
+        padding: .5rem 1rem;
+    }
+    ul li:last-child {
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+}
+
+//Overall styling for the MAIN of the document
+main {
+    figure.photo {width: 25% - $gutterdbl; float: left; }
+}
