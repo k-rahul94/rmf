@@ -73,6 +73,22 @@ main {
         font-size: 2rem;
         margin: 1rem 0 0 $gutter;
         color: $primaryColor;
+    } // end h1
+
+    h2 {
+        font-size: 1.5rem;
+        margin: .75rem 0 0 $gutter;
+        color: lighten($primaryColor, 10%);
+    } // end h2
+
+    h3 {
+        font-size: 1.2rem;
+        color: lighten($primaryColor, 20%);
+    } // end h3
+
+    p {
+        line-height: 130%;
+        color: $fontColor;
     }
 
     hr.fadeAway {
@@ -85,6 +101,11 @@ main {
     figure.photo {width: 100% - $gutterdbl; margin: .5rem $gutter; }
     figure.photo img {width: 100%}
     figure.photo figcaption {text-align: center; color: $primaryColor;}
+
+    div.blog article {
+        margin: .5rem $gutter;
+        width: 100% - $gutterdbl;
+    }
 }
 //Overall styling for the FOOTER of the document
 footer {

@@ -1,3 +1,15 @@
+//Overall styling for the BODY of the document
+body {
+    background-image: url(../images/polonez_car.png);
+}
+
+#wrapper {
+    max-width: 80rem;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px #000000;
+    background: white;
+}
+
 //Overall styling for the NAVIGATION of the document
 nav {
     ul {
@@ -16,4 +28,17 @@ nav {
 //Overall styling for the MAIN of the document
 main {
     figure.photo {width: 25% - $gutterdbl; float: left; }
+
+    div.blog article {
+        float: left;
+        width: 33.33% - $gutterdbl;
+    }
+
+    div.blog article:nth-child(2n+1) {
+        clear: none;
+    }
+
+    div.blog article:nth-child(3n+1) {
+        clear: left;
+    }
 }
